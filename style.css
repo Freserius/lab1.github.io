@@ -16,7 +16,9 @@ footer{
     padding-top: 15px;
     padding-bottom: 10px;
 }
-
+header h2 a{
+    text-decoration: none;
+}
 header{
     display: flex;
     justify-content:space-evenly;
