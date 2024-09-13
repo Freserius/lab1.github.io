@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Back words</title>
+    <title>Authorisetion</title>
     <link rel="stylesheet" href="/lab1/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +12,7 @@
         rel="stylesheet">
 </head>
 
-<body class="back_call">
+<body class="aithorize">
     <header>
         <h2><a href="/lab1/index.html">Главная</a></h2>
         <h2><a href="">Проекты</a></h2>
@@ -20,23 +20,11 @@
         <h2><a href="/lab1/forma/forma.html">Авторизация</a></h2>
         <h2><a href="/lab1/subpage/back_cal.html">Обратнная связь</a></h2>
     </header>
-    <form action="" method="post" class="meseg">
-        <p><input type="text" id="name" name="name" placeholder="ФИО.." required> </p>
-        <p><input type="email" id="email" name="email" placeholder="Email.." required></p>
-        <p> От-куда узнали о этом сайте? </p>
-        <p><input type="radio" name="from" value="frends"> От друзей </p>
-        <p><input type="radio" name="from" value="social_net"> В социальных сетях </p>
-        <p><input type="radio" name="from" value="adversting" checked> В рекламе</p>
-        <select>
-            <option value="1"> Пожелание </option>
-            <option value="2"> Жалоба </option>
-        </select>
-        <p> Текст обращения: </p>
-        <p><textarea rows="10" cols="45"></textarea></p>
-        <p><input type="file">
-        <p><input type="checkbox" id="remember" name="remember" value="Yes">Согласен на обработку персональных данных
-        </p>
-        <input type="submit" value="Send">
+    <form class="auth" action="" method="post">
+        <p><input type="text" id="name" name="name" placeholder="login.." required> </p>
+        <p><input type="password" id="password" name="password" placeholder="password.." required></p>
+        <p><input type="checkbox" id="remember" name="remember" value="Yes">Remember me</p>
+        <input type="submit" value="Authoriset">
     </form>
     <footer>
         <h3>Контакнные данные:</h3>
