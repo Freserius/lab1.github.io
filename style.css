@@ -11,6 +11,7 @@ body,h2,p,td,tr,h3{
 }
 
 footer{
+    text-align: left;
     padding-left: 10%;
     background-color: rgb(102, 109, 115);
     padding-top: 15px;
@@ -67,6 +68,7 @@ th,td{
 }
 .auth{
     margin-top: 10%; 
+    margin-bottom: 10%;
     border: 2px solid; 
     margin-right: 42%; 
     margin-left: 42%; 
@@ -78,7 +80,8 @@ th,td{
     background-image:url("/spots_background_light_69091_2560x1440.jpg");
 }
 .meseg{
-    margin-top: 5%; 
+    margin-top: 2%; 
+    margin-bottom: 2%;
     border: 2px solid; 
     margin-right: 36%; 
     margin-left: 36%; 
